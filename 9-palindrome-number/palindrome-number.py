@@ -7,7 +7,6 @@ class Solution(object):
         a=x
         if x<0:
             return False
-        x=abs(x)
         rev=0
         while x>0:
             digit=x%10
